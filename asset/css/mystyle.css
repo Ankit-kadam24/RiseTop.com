@@ -36,3 +36,55 @@
     padding: 10px 20px;
     margin: 10px 0px 0px 0px;
   }
+
+
+
+  /*Accounts page*/
+
+  /*Main page*/
+
+  .mains-account{
+    margin-top:105px;
+  }
+
+  .service_abt{
+    margin-top: 150px;
+    font-size: 24px;
+    line-height: inherit;
+    font-weight: bold;
+    color: #7937c3;
+  }
+  .main-promo{
+    margin-bottom: 30px;
+  }
+
+  .six-box{
+    margin-bottom: 25px;
+  }
+
+  .content-box{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #eae1e1;
+    background-color: #eae1e1;
+    height: 350px;
+    margin-bottom: 25px;
+  }
+
+  .icons-cont{
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .content-para{
+    word-break: break-all;
+    font-size: 18px;
+  }
+  .title-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
