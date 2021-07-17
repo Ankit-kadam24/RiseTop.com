@@ -161,8 +161,8 @@ body{ font-family: 'Open Sans', sans-serif; }
 
   .HR-slogan{
     position: absolute;
-    bottom: 60px;
-    left: 158px;
+    bottom: 0;
+    left: 280px;
   }
 
   .HR-slogan > strong{
