@@ -839,7 +839,7 @@ Nav Menu style
 }
 .navbar-brand > img {
     display: block;
-    width: 80%;
+    width: 62%;
 }
 
 .navbar-callus li a{
@@ -876,7 +876,6 @@ Home Section style
     padding-top: 300px;
     padding-bottom: 190px;
     width:100%;
-    object-fit: fill;
 }
 .main_home .home_text h2{
     font-size:36px;
