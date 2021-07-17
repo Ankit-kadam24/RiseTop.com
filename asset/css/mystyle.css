@@ -171,7 +171,7 @@ body{ font-family: 'Open Sans', sans-serif; }
   }
   .img-respo{
     width: 100%;
-    height: inherit;
+    height: fit-content;
   }
 
   .img-hrinfo{
