@@ -50,6 +50,9 @@ body{ font-family: 'Open Sans', sans-serif; }
 .pl-4{padding-left: 25px;}
 .pl-4{padding-left: 30px;}
 
+.text-justify {
+  text-align: justify;
+}
 /*Navigation bar*/
 
 .nav-logo{
@@ -107,8 +110,8 @@ body{ font-family: 'Open Sans', sans-serif; }
   .roomy-70 >.col-md-4 > .features_item >.f_item_text > p { font-size: 1em;}
 
   .Img-service{
-    width: 290px;
-    height: 224px;
+    width: 800px !important;
+    height: 230px;
   }
 
   .btn-read{
@@ -126,7 +129,7 @@ body{ font-family: 'Open Sans', sans-serif; }
   .cl-about{
     font-size: 17px;
   }
-
+  .cl-about > img{ font-size: 1.2em;}
   .cl-about > .content  h3{ font-size: 1.5em;}
   .cl-about > .content  p {font-size: 1.2em; line-height: 1.4;}
 
@@ -199,6 +202,12 @@ body{ font-family: 'Open Sans', sans-serif; }
     margin-bottom: 25px;
   }
 
+  .product{
+    background-color: #ececec;
+  }
+  .carousel-indicators{
+    bottom: -57px;
+  }
   .content-box{
     padding: 15px;
     display: flex;
@@ -251,3 +260,64 @@ body{ font-family: 'Open Sans', sans-serif; }
   .widget_newsletter li a i{
     font-size: 1.2em;
   }
+
+
+  /**********************-------------Tablet view-----------**********/
+ 
+  
+  /**********************-------------Mobile view-----------**********/
+
+  @media  screen and (max-width: 768px) {
+    /*1 INDEX PAGE*/
+
+    /*Carousel*/
+
+    .mains-account {
+      margin-top: 51px;
+    }
+    /* /carousel down text/ */
+    .roomy-70{
+      font-size: 15px;
+      padding: 20px;
+      }
+      /*Product Page*/
+  
+      #carousel1, #carousel2{
+        display: none;
+      }
+      .pro-row{
+        flex-direction: column;
+      }
+      .carousel-indicators{
+        display: none;
+      }
+
+      /*About Us content*/
+      .cl-about {
+        font-size: 12px;
+      }
+
+
+      /*Footer*/
+      .widget_about {
+        font-size: 13px;
+    }
+    .map{
+      border:0;
+      width: 100%;
+    }
+
+    /* 2 HR page*/
+
+    .img-hrinfo{
+      float: none;
+      width: 100%;
+      margin-bottom: 21px;
+    }
+    
+
+
+    }
+
+
+
