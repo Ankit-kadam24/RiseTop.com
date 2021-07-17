@@ -256,8 +256,8 @@
                             <h2 class="text-uppercase">Services We Provide</h2>
                             <!-- <h5>Clean and Modern design is our best specialist</h5> -->
                         </div>
-
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- data-ride="carousel" -->
+                        <div id="carousel-example-generic" class="carousel slide">
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -518,6 +518,8 @@
 
                             </div>
 
+
+                            
                             <!-- Controls -->
                             <a class="left carousel-control" href="#carousel-example-generic" role="button"
                                 data-slide="prev">
@@ -530,6 +532,92 @@
                                 <i class="fa fa-angle-right" aria-hidden="true"></i>
                                 <span class="sr-only">Next</span>
                             </a>
+                        </div>
+
+
+                        <!--Mobile view-->
+
+                        <div class="item active mobileView" id="carousel0">
+                            <div class="container">
+                                <div class="row pro-row">
+                                    <div class="col-sm-3 cm3">
+                                        <div class="port_item xs-m-top-30">
+                                            <div class="port_img">
+                                                <img src="asset/images/HRresiz.png" class="Img-service"
+                                                    alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="asset/images/HRresiz.png" class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>HR Recruitement firm</h5>
+                                                <h6>- we hire</h6>
+
+                                            </div>
+                                            <button class="btn btn-primary btn-read"
+                                                onclick="window.location.href = 'Services/HR.html'">Read
+                                                more</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 cm3">
+                                        <div class="port_item xs-m-top-30">
+                                            <div class="port_img">
+                                                <img src="asset/images/accounts.jpg" class="Img-service"
+                                                    alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="asset/images/accounts.jpg" class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>Accounts</h5>
+                                                <h6>- We Do Auditing and Accountability</h6>
+
+                                            </div>
+                                            <button class="btn btn-primary btn-read"
+                                                onclick="window.location.href = 'Services/Account.html'">Read
+                                                more</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 cm3">
+                                        <div class="port_item xs-m-top-30">
+                                            <div class="port_img">
+                                                <img src="asset/images/wholesales.jpg" class="Img-service"
+                                                    alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="asset/images/wholesales.jpg"
+                                                        class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>WholeSales</h5>
+                                                <h6>- We seal Product at best price</h6>
+
+                                            </div>
+                                            <button class="btn btn-primary btn-read"
+                                                onclick="window.location.href = 'Services/Wholesale.html'">Read
+                                                more</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 cm3">
+                                        <div class="port_item xs-m-top-30">
+                                            <div class="port_img">
+                                                <img src="asset/images/hotel.jpg" class="Img-service" alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="asset/images/hotel.jpg" class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>Hotel Booking</h5>
+                                                <h6>- We book Hotel all over India</h6>
+
+                                            </div>
+                                            <button class="btn btn-primary btn-read"
+                                                onclick="window.location.href = 'Services/HotelBook.html'">Read
+                                                more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div><!-- End off row -->
                 </div><!-- End off container -->
@@ -750,20 +838,10 @@
     <script src="asset/js/plugins.js"></script>
     <script src="asset/js/main.js"></script>
     <script>
-        // set breakpoint width
-var BP = 768;
+        debugger;
 
-// start carousel
-$('.carousel').carousel({ interval: (window.innerWidth<BP)?false:5000 });
 
-// if user rotates phone orientation | window resite
-$(window).on('resize', function(ev){
-  if( window.innerWidth < BP ){ 
-    $('.carousel').carousel({ interval: false });
-  } else {
-    $('.carousel').carousel({ interval: 5000 });
-  }
-})
+
     </script>
 
 </body>

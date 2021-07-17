@@ -156,6 +156,7 @@ body{ font-family: 'Open Sans', sans-serif; }
   
   .Hr-headimg{
     height: 550px;
+    font-size: 17px;
     position: relative;
   }
 
@@ -187,6 +188,9 @@ body{ font-family: 'Open Sans', sans-serif; }
     margin-top:95px;
   }
 
+  .mobileView{
+    display: none;
+  }
   .service_abt{
     margin-top: 150px;
     font-size: 24px;
@@ -289,6 +293,13 @@ body{ font-family: 'Open Sans', sans-serif; }
       font-size: 15px;
       padding: 20px;
       }
+
+      #carousel-example-generic{
+        display: none;
+      }
+      .mobileView{
+        display: block;
+      }
       /*Product Page*/
   
       #carousel1, #carousel2{
@@ -324,6 +335,30 @@ body{ font-family: 'Open Sans', sans-serif; }
       margin-bottom: 21px;
     }
 
+    .img-respo {
+      width: 100%;
+      height: auto;
+  }
+
+  .section-title{ margin-bottom: 5px;}
+  .section-title h1{
+    font-size: 25px;
+  }
+  .Hr-headimg {
+    height: auto;
+    position: relative;
+}
+
+.HR-slogan > strong {
+  font-size: 1.2em;
+  color: ivory;
+}
+
+.HR-slogan {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
     /*Accounts*/
 
     .service_abt{
@@ -332,11 +367,23 @@ body{ font-family: 'Open Sans', sans-serif; }
     font-size: 20px;
     }
 
-    .img-hotel{
-      width: 100%;
-    }
     
+    
+    .content-box {
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #eae1e1;
+      background-color: #eae1e1;
+      height: auto;
+      margin-bottom: 16px;
+  }
 
+  .title-service strong{
+    font-size: 22px;
+  }
     /*Hotel Booking*/
 
     .content{
@@ -344,6 +391,9 @@ body{ font-family: 'Open Sans', sans-serif; }
     }
     .about .content  h3{
       font-size: 20px;
+    }
+    .img-hotel{
+      width: 100%;
     }
 
 
